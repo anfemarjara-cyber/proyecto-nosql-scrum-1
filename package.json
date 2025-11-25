@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-mongodb-crud",
+  "version": "1.0.0",
+  "description": "API CRUD con Node.js, Express y MongoDB (Mongoose)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "tu-nombre",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
+
